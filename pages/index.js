@@ -16,7 +16,6 @@ export default function Home() {
       subtitle: 'Your store for fitness gear and natural products 🌿'
     }
   };
-
   const t = translations[locale] || translations.de;
 
   return (

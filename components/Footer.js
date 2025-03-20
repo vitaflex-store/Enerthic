@@ -1,16 +1,7 @@
 export default function Footer() {
   return (
-    <footer style={footerStyle}>
-      <p>© 2025 Enerthic. Alle Rechte vorbehalten.</p>
+    <footer style={{ backgroundColor: '#f0f0f0', textAlign: 'center', padding: '20px', fontFamily: 'Inter, sans-serif', marginTop: '40px' }}>
+      <p>&copy; 2025 Enerthic. Alle Rechte vorbehalten.</p>
     </footer>
   );
 }
-
-const footerStyle = {
-  textAlign: 'center',
-  padding: '30px',
-  backgroundColor: '#f1f1f1',
-  fontFamily: 'Inter, sans-serif',
-  color: '#333',
-  fontSize: '0.9rem'
-};
