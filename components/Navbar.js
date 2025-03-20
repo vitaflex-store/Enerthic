@@ -1,4 +1,3 @@
-
 import LanguageSelector from './LanguageSelector';
 
 export default function Navbar() {
